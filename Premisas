@@ -1,0 +1,22 @@
+Nuestro proyecto es necesario que realice las siguientes acciones. 
+
+1.- Debe darnos la hora exacta marcada en 24 horas.  Para ello usaremos el módulo DS3231 RTC.
+
+2.- Ha de poder configurarse una alarma. Sonara una cancion MP3. Para ello usaremos un modulo DFPlayer Mini junto con una SD de 16 GB y dos altavoces de 3 Wattios cada uno.
+
+3.- Tiene que mostrar la Temperatura, humedad y presión barométrica. Con estos datos sabremos las condiciones de la habitación donde se ubique, así como la probabilidad de lluvia. Usaremos el sensor BME280. 
+
+4.- Calidad del aire en interior. Usaremos el modulo CCS811. 
+
+5.- Los datos han de mostrarse de la siguiente forma:
+	  -- La hora ha de mostrarse una unos dígitos creados por impresión 3d e iluminados con led inteligentes WS2812B. 
+	  -- La información de condiciones ambientales se mostrarán en una pequeña pantalla TFT de 3.2”
+	  -- Ambos datos han de poder mostrarse en una página web. 
+
+6.- Los dígitos LED han de poder atenuarse según la luz de la habitación. 
+
+7.- Todas las configuraciones han de poder hacerse desde una web. Siendo estas: 
+	  -- Configuración de alarma.
+	  -- Configurar transiciones de un digito a otro, así como el color de estos.
+    -- Politono para alarma.
+	  -- ON/OFF de los LED.
